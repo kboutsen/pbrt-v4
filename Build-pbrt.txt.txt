@@ -1,0 +1,6 @@
+* Install Nvidia CUDA Toolkit (https://developer.nvidia.com/cuda-downloads)
+* Install NVidia OptiX (https://developer.nvidia.com/designworks/optix/download)
+* CMAKE command:
+cmake  -S . -B .\build\ -DCMAKE_CUDA_COMPILER='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\bin\nvcc.exe' -DPBRT_OPTIX7_PATH='C:\ProgramData\NVIDIA Corporation\OptiX SDK 7.7.0'
+* Build in VS
+"C:\Repos\pbrt-v4\build\PBRT-V4.sln"
