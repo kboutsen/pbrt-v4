@@ -128,6 +128,11 @@ C++17; we have verified that it builds on Ubuntu 20.04, MacOS 10.14, and
 Windows 10.  We welcome PRs that fix any issues that prevent it from
 building on other systems.
 
+MSVC on Windows
+On Windows, first point the cmake GUI at the directory with pbrt's source code. Create a separate directory to hold the result of the build (potentially just a directory named "build" inside the pbrt-v3 directory) and set that for "Where to build the binaries" in the GUI.
+
+Next, click "Configure". Note that you will want to choose the "Win64" generator for your MSVC installation unless you have a clear reason to need a 32-bit build of pbrt. Once cmake has finished the configuration step, click "Generate"; when that's done, there will be a "PBRT-V3.sln" file in the build directory you specified. Open that up in MSVC and you're ready to go.
+
 Bug Reports and PRs
 -------------------
 

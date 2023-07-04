@@ -1,0 +1,1632 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 20/06/2023 14:54:46.
+      Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\3.26.4\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.15
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Repos/pbrt-v4/src/ext/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 20/06/2023 14:54:48.
+      Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\3.26.4\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.16
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Repos/pbrt-v4/src/ext/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-j7r5bi"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-j7r5bi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-j7r5bi
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_0e7f7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:49.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-j7r5bi\\cmTC_0e7f7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0e7f7.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-j7r5bi\\Debug\\".
+          Creating directory "cmTC_0e7f7.dir\\Debug\\cmTC_0e7f7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0e7f7.dir\\Debug\\cmTC_0e7f7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e7f7.dir\\Debug\\\\" /Fd"cmTC_0e7f7.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e7f7.dir\\Debug\\\\" /Fd"cmTC_0e7f7.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-j7r5bi\\Debug\\cmTC_0e7f7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-j7r5bi/Debug/cmTC_0e7f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-j7r5bi/Debug/cmTC_0e7f7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0e7f7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0e7f7.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-j7r5bi\\Debug\\cmTC_0e7f7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0e7f7.dir\\Debug\\cmTC_0e7f7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0e7f7.dir\\Debug\\cmTC_0e7f7.tlog\\cmTC_0e7f7.lastbuildstate".
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-j7r5bi\\cmTC_0e7f7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ooka1d"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ooka1d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ooka1d
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_19073.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:51.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ooka1d\\cmTC_19073.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19073.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ooka1d\\Debug\\".
+          Creating directory "cmTC_19073.dir\\Debug\\cmTC_19073.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19073.dir\\Debug\\cmTC_19073.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_19073.dir\\Debug\\\\" /Fd"cmTC_19073.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_19073.dir\\Debug\\\\" /Fd"cmTC_19073.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ooka1d\\Debug\\cmTC_19073.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ooka1d/Debug/cmTC_19073.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ooka1d/Debug/cmTC_19073.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_19073.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_19073.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ooka1d\\Debug\\cmTC_19073.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_19073.dir\\Debug\\cmTC_19073.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19073.dir\\Debug\\cmTC_19073.tlog\\cmTC_19073.lastbuildstate".
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ooka1d\\cmTC_19073.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.34
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line error D8004 : '/V' requires an argument
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line error D8004 : '/V' requires an argument
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '-qversion'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libdeflate/CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+                               C/C++ COMPILER OPTIONS
+      
+      
+                                    -OPTIMIZATION-
+      
+      /O1 maximum optimizations (favor space) /O2 maximum optimizations (favor speed)
+      /Ob<n> inline expansion (default n=0)   /Od disable optimizations (default)
+      /Og enable global optimization          /Oi[-] enable intrinsic functions
+      /Os favor code space                    /Ot favor code speed
+      /Ox optimizations (favor speed)         /Oy[-] enable frame pointer omission 
+      /favor:<blend|ATOM> select processor to optimize for, one of:
+          blend - a combination of optimizations for several different x86 processors
+          ATOM - Intel(R) Atom(TM) processors 
+      
+                                   -CODE GENERATION-
+      
+      /Gu[-] ensure distinct functions have distinct addresses
+      /Gw[-] separate global variables for linker
+      /GF enable read-only string pooling     /Gm[-] enable minimal rebuild
+      /Gy[-] separate functions for linker    /GS[-] enable security checks
+      /GR[-] enable C++ RTTI                  /GX[-] enable C++ EH (same as /EHsc)
+      /guard:cf[-] enable CFG (control flow guard)
+      /EHs enable C++ EH (no SEH exceptions)  /EHa enable C++ EH (w/ SEH exceptions)
+      /EHc extern "C" defaults to nothrow     
+      /EHr always generate noexcept runtime termination checks
+      /fp:<except[-]|fast|precise|strict> choose floating-point model:
+          except[-] - consider floating-point exceptions when generating code
+          fast - "fast" floating-point model; results are less predictable
+          precise - "precise" floating-point model; results are predictable
+          strict - "strict" floating-point model (implies /fp:except)
+      /Qfast_transcendentals generate inline FP intrinsics even with /fp:except
+      /Qspectre[-] enable mitigations for CVE 2017-5753
+      /Qpar[-] enable parallel code generation
+      /Qpar-report:1 auto-parallelizer diagnostic; indicate parallelized loops
+      /Qpar-report:2 auto-parallelizer diagnostic; indicate loops not parallelized
+      /Qvec-report:1 auto-vectorizer diagnostic; indicate vectorized loops
+      /Qvec-report:2 auto-vectorizer diagnostic; indicate loops not vectorized
+      /GL[-] enable link-time code generation 
+      /volatile:<iso|ms> choose volatile model:
+          iso - Acquire/release semantics not guaranteed on volatile accesses
+          ms  - Acquire/release semantics guaranteed on volatile accesses
+      /GA optimize for Windows Application    /Ge force stack checking for all funcs
+      /Gs[num] control stack checking calls   /Gh enable _penter function call
+      /GH enable _pexit function call         /GT generate fiber-safe TLS accesses
+      /RTC1 Enable fast checks (/RTCsu)       /RTCc Convert to smaller type checks
+      /RTCs Stack Frame runtime checking      /RTCu Uninitialized local usage checks
+      /clr[:option] compile for common language runtime, where option is:
+          pure - produce IL-only output file (no native executable code)
+          safe - produce IL-only verifiable output file
+          initialAppDomain - enable initial AppDomain behavior of Visual C++ 2002
+          noAssembly - do not produce an assembly
+          nostdlib - ignore the default \\clr directory
+      /Gd __cdecl calling convention          /Gr __fastcall calling convention
+      /Gz __stdcall calling convention        /GZ Enable stack checks (/RTCs)
+      /Gv __vectorcall calling convention     /QIfist[-] use FIST instead of ftol()
+      /hotpatch ensure function padding for hotpatchable images
+      /arch:<IA32|SSE|SSE2|AVX|AVX2> minimum CPU architecture requirements, one of:
+         IA32 - use no enhanced instructions and use x87 for floating point
+         SSE - enable use of instructions available with SSE-enabled CPUs
+         SSE2 - (default) enable use of instructions available with SSE2-enabled CPUs
+         AVX - enable use of instructions available with AVX-enabled CPUs
+         AVX2 - enable use of instructions available with AVX2-enabled CPUs
+      /Qimprecise_fwaits generate FWAITs only on "try" boundaries, not inside "try"
+      /Qsafe_fp_loads generate safe FP loads  
+      /Qspectre-load Enable spectre mitigations for all instructions which load memory
+      /Qspectre-load-cf Enable spectre mitigations for all control-flow instructions which load memory
+      
+                                    -OUTPUT FILES-
+      
+      /Fa[file] name assembly listing file    /FA[scu] configure assembly listing
+      /Fd[file] name .PDB file                /Fe<file> name executable file
+      /Fm[file] name map file                 /Fo<file> name object file
+      /Fp<file> name precompiled header file  /Fr[file] name source browser file
+      /FR[file] name extended .SBR file       /Fi[file] name preprocessed file
+      /Fd: <file> name .PDB file              /Fe: <file> name executable file
+      /Fm: <file> name map file               /Fo: <file> name object file
+      /Fp: <file> name .PCH file              /FR: <file> name extended .SBR file
+      /Fi: <file> name preprocessed file      
+      /doc[file] process XML documentation comments and optionally name the .xdc file
+      
+                                    -PREPROCESSOR-
+      
+      /AI<dir> add to assembly search path    /FU<file> forced using assembly/module 
+      /C don't strip comments                 /D<name>{=|#}<text> define macro
+      /E preprocess to stdout                 /EP preprocess to stdout, no #line
+      /P preprocess to file                   /Fx merge injected code to file
+      /FI<file> name forced include file      /U<name> remove predefined macro
+      /u remove all predefined macros         /I<dir> add to include search path
+      /X ignore "standard places"             
+      /PH generate #pragma file_hash when preprocessing
+      
+                                      -LANGUAGE-
+      
+      /std:<c++14|c++17|c++latest> C++ standard version
+          c++14 – ISO/IEC 14882:2014 (default)
+          c++17 – ISO/IEC 14882:2017
+          c++latest – latest draft standard (feature set subject to change)
+      /permissive[-] enable some nonconforming code to compile (feature set subject to change) (on by default)
+      /Ze enable extensions (default)         /Za disable extensions
+      /ZW enable WinRT language extensions    /Zs syntax check only
+      /Zc:arg1[,arg2] C++ language conformance, where arguments can be:
+        forScope[-]           enforce Standard C++ for scoping rules
+        wchar_t[-]            wchar_t is the native type, not a typedef
+        auto[-]               enforce the new Standard C++ meaning for auto
+        trigraphs[-]          enable trigraphs (off by default)
+        rvalueCast[-]         enforce Standard C++ explicit type conversion rules
+        strictStrings[-]      disable string-literal to [char|wchar_t]*
+                              conversion (off by default)
+        implicitNoexcept[-]   enable implicit noexcept on required functions
+        threadSafeInit[-]     enable thread-safe local static initialization
+        inline[-]             remove unreferenced function or data if it is
+                              COMDAT or has internal linkage only (off by default)
+        sizedDealloc[-]       enable C++14 global sized deallocation
+                              functions (on by default)
+        throwingNew[-]        assume operator new throws on failure (off by default)
+        referenceBinding[-]   a temporary will not bind to an non-const
+                              lvalue reference (off by default)
+        twoPhase-             disable two-phase name lookup
+        ternary[-]            enforce C++11 rules for conditional operator (off by default)
+        noexceptTypes[-]      enforce C++17 noexcept rules (on by default in C++17 or later)
+        alignedNew[-]         enable C++17 alignment of dynamically allocated objects (on by default)
+      /await enable resumable functions extension
+      /constexpr:depth<N>     recursion depth limit for constexpr evaluation (default: 512)
+      /constexpr:backtrace<N> show N constexpr evaluations in diagnostics (default: 10)
+      /constexpr:steps<N>     terminate constexpr evaluation after N steps (default: 100000)
+      /Zi enable debugging information        /Z7 enable old-style debug info
+      /Zo[-] generate richer debugging information for optimized code (on by default)
+      /ZH:SHA_256             use SHA256 for file checksum in debug info (experimental)
+      /Zp[n] pack structs on n-byte boundary  /Zl omit default library name in .OBJ
+      /vd{0|1|2} disable/enable vtordisp      /vm<x> type of pointers to members
+      /ZI enable Edit and Continue debug info 
+      /openmp enable OpenMP 2.0 language extensions
+      
+                                    -MISCELLANEOUS-
+      
+      @<file> options response file           /?, /help print this help message
+      /bigobj generate extended object format /c compile only, no link
+      /errorReport:option Report internal compiler errors to Microsoft
+          none - do not send report                
+          prompt - prompt to immediately send report
+          queue - at next admin logon, prompt to send report (default)
+          send - send report automatically         
+      /FC use full pathnames in diagnostics   /H<num> max external name length
+      /J default char type is unsigned        
+      /MP[n] use up to 'n' processes for compilation
+      /nologo suppress copyright message      /showIncludes show include file names
+      /Tc<source file> compile file as .c     /Tp<source file> compile file as .cpp
+      /TC compile all files as .c             /TP compile all files as .cpp
+      /V<string> set version string           /Yc[file] create .PCH file
+      /Yd put debug info in every .OBJ        /Yl[sym] inject .PCH ref for debug lib
+      /Yu[file] use .PCH file                 /Y- disable all PCH options
+      /Zm<n> max memory alloc (% of default)  /FS force to use MSPDBSRV.EXE
+      /source-charset:<iana-name>|.nnnn set source character set
+      /execution-charset:<iana-name>|.nnnn set execution character set
+      /utf-8 set source and execution character set to UTF-8
+      /validate-charset[-] validate UTF-8 files for only legal characters
+      
+                                      -LINKING-
+      
+      /LD Create .DLL                         /LDd Create .DLL debug library
+      /LN Create a .netmodule                 /F<num> set stack size
+      /link [linker options and libraries]    /MD link with MSVCRT.LIB
+      /MT link with LIBCMT.LIB                /MDd link with MSVCRTD.LIB debug lib
+      /MTd link with LIBCMTD.LIB debug lib    
+      
+                                    -CODE ANALYSIS-
+      
+      /analyze[-] Enable native analysis      /analyze:quiet[-] No warning to console
+      /analyze:log<name> Warnings to file     /analyze:autolog Log to *.pftlog
+      /analyze:autolog:ext<ext> Log to *.<ext>/analyze:autolog- No log file
+      /analyze:WX- Warnings not fatal         /analyze:stacksize<num> Max stack frame
+      /analyze:max_paths<num> Max paths       /analyze:only Analyze, no code gen
+      
+                                    -DIAGNOSTICS-
+      
+      /diagnostics:<args,...> controls the format of diagnostic messages:
+                   classic   – retains prior format
+                   column[-] – prints column information
+                   caret[-]  – prints column and the indicated line of source
+      /Wall enable all warnings               /w   disable all warnings
+      /W<n> set warning level (default n=1)   
+      /Wv:xx[.yy[.zzzzz]] disable warnings introduced after version xx.yy.zzzzz
+      /WX treat warnings as errors            /WL enable one line diagnostics
+      /wd<n> disable warning n                /we<n> treat warning n as an error
+      /wo<n> issue warning n once             /w<l><n> set warning level 1-4 for n
+      /external:I <path>      – location of external headers
+      /external:env:<var>     – environment variable with locations of external headers
+      /external:anglebrackets – treat all headers included via <> as external
+      /external:W<n>          – warning level for external headers
+      /external:templates[-]  – evaluate warning level across template instantiation chain
+      /sdl enable additional security features and warnings
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:95 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_WALL"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fifcbg"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fifcbg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_WALL"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fifcbg
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_bb23e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:54.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\cmTC_bb23e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bb23e.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\Debug\\".
+          Creating directory "cmTC_bb23e.dir\\Debug\\cmTC_bb23e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bb23e.dir\\Debug\\cmTC_bb23e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /Wall /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_WALL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb23e.dir\\Debug\\\\" /Fd"cmTC_bb23e.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /Wall /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_WALL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb23e.dir\\Debug\\\\" /Fd"cmTC_bb23e.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\src.c"
+          
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\Debug\\cmTC_bb23e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fifcbg/Debug/cmTC_bb23e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fifcbg/Debug/cmTC_bb23e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bb23e.dir\\Debug\\src.obj
+          cmTC_bb23e.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\Debug\\cmTC_bb23e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bb23e.dir\\Debug\\cmTC_bb23e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bb23e.dir\\Debug\\cmTC_bb23e.tlog\\cmTC_bb23e.lastbuildstate".
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fifcbg\\cmTC_bb23e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:96 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_WUNDEF"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fguwaz"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fguwaz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_WUNDEF"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-fguwaz
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_d23e0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:56.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\cmTC_d23e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d23e0.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\Debug\\".
+          Creating directory "cmTC_d23e0.dir\\Debug\\cmTC_d23e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d23e0.dir\\Debug\\cmTC_d23e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_WUNDEF /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d23e0.dir\\Debug\\\\" /Fd"cmTC_d23e0.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wundef "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_WUNDEF /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d23e0.dir\\Debug\\\\" /Fd"cmTC_d23e0.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wundef "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wundef' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\cmTC_d23e0.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\cmTC_d23e0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\cmTC_d23e0.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wundef' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-fguwaz\\cmTC_d23e0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.84
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:97 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_PEDANTIC"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-1s37xs"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-1s37xs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-1s37xs
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_b3efd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:57.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\cmTC_b3efd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b3efd.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\Debug\\".
+          Creating directory "cmTC_b3efd.dir\\Debug\\cmTC_b3efd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b3efd.dir\\Debug\\cmTC_b3efd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_PEDANTIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3efd.dir\\Debug\\\\" /Fd"cmTC_b3efd.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wpedantic "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_PEDANTIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3efd.dir\\Debug\\\\" /Fd"cmTC_b3efd.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wpedantic "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wpedantic' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\cmTC_b3efd.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\cmTC_b3efd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\cmTC_b3efd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wpedantic' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-1s37xs\\cmTC_b3efd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:98 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_DECLARATION_AFTER_STATEMENT"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-5xkhem"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-5xkhem"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_DECLARATION_AFTER_STATEMENT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-5xkhem
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_6613d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:58.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\cmTC_6613d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6613d.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\Debug\\".
+          Creating directory "cmTC_6613d.dir\\Debug\\cmTC_6613d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6613d.dir\\Debug\\cmTC_6613d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_DECLARATION_AFTER_STATEMENT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6613d.dir\\Debug\\\\" /Fd"cmTC_6613d.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wdeclaration-after-statement "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_DECLARATION_AFTER_STATEMENT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6613d.dir\\Debug\\\\" /Fd"cmTC_6613d.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wdeclaration-after-statement "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wdeclaration-after-statement' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\cmTC_6613d.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\cmTC_6613d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\cmTC_6613d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wdeclaration-after-statement' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-5xkhem\\cmTC_6613d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.83
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:99 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_MISSING_PROTOTYPES"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-rh5bkz"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-rh5bkz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_MISSING_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-rh5bkz
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_f1cdb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:54:59.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\cmTC_f1cdb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f1cdb.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\Debug\\".
+          Creating directory "cmTC_f1cdb.dir\\Debug\\cmTC_f1cdb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f1cdb.dir\\Debug\\cmTC_f1cdb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_MISSING_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1cdb.dir\\Debug\\\\" /Fd"cmTC_f1cdb.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wmissing-prototypes "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_MISSING_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1cdb.dir\\Debug\\\\" /Fd"cmTC_f1cdb.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wmissing-prototypes "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wmissing-prototypes' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\cmTC_f1cdb.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\cmTC_f1cdb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\cmTC_f1cdb.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wmissing-prototypes' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-rh5bkz\\cmTC_f1cdb.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:100 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_STRICT_PROTOTYPES"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-cv1cdz"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-cv1cdz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_STRICT_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-cv1cdz
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_2c79c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:01.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\cmTC_2c79c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2c79c.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\Debug\\".
+          Creating directory "cmTC_2c79c.dir\\Debug\\cmTC_2c79c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2c79c.dir\\Debug\\cmTC_2c79c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_STRICT_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c79c.dir\\Debug\\\\" /Fd"cmTC_2c79c.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wstrict-prototypes "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_STRICT_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c79c.dir\\Debug\\\\" /Fd"cmTC_2c79c.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wstrict-prototypes "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wstrict-prototypes' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\cmTC_2c79c.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\cmTC_2c79c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\cmTC_2c79c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wstrict-prototypes' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-cv1cdz\\cmTC_2c79c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.84
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:101 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_VLA"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-r13ixk"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-r13ixk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_VLA"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-r13ixk
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_6a3ab.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:02.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\cmTC_6a3ab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6a3ab.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\Debug\\".
+          Creating directory "cmTC_6a3ab.dir\\Debug\\cmTC_6a3ab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6a3ab.dir\\Debug\\cmTC_6a3ab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_VLA /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a3ab.dir\\Debug\\\\" /Fd"cmTC_6a3ab.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wvla "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_VLA /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a3ab.dir\\Debug\\\\" /Fd"cmTC_6a3ab.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wvla "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wvla' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\cmTC_6a3ab.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\cmTC_6a3ab.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\cmTC_6a3ab.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wvla' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-r13ixk\\cmTC_6a3ab.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libdeflate/CMakeLists.txt:102 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test DEFLATE_LINT_IMPLICIT_FALLTHROUGH"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-4pb604"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-4pb604"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "DEFLATE_LINT_IMPLICIT_FALLTHROUGH"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-4pb604
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_45c6c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:03.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\cmTC_45c6c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_45c6c.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\Debug\\".
+          Creating directory "cmTC_45c6c.dir\\Debug\\cmTC_45c6c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_45c6c.dir\\Debug\\cmTC_45c6c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_IMPLICIT_FALLTHROUGH /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45c6c.dir\\Debug\\\\" /Fd"cmTC_45c6c.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wimplicit-fallthrough "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D DEFLATE_LINT_IMPLICIT_FALLTHROUGH /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45c6c.dir\\Debug\\\\" /Fd"cmTC_45c6c.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wimplicit-fallthrough "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\src.c"
+        cl : Command line error D8021: invalid numeric argument '/Wimplicit-fallthrough' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\cmTC_45c6c.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\cmTC_45c6c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\cmTC_45c6c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : Command line error D8021: invalid numeric argument '/Wimplicit-fallthrough' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-4pb604\\cmTC_45c6c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.88
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib/CMakeLists.txt:26 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-tqurv9"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-tqurv9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-tqurv9
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_a1a33.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:05.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\cmTC_a1a33.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a1a33.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\Debug\\".
+          Creating directory "cmTC_a1a33.dir\\Debug\\cmTC_a1a33.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a1a33.dir\\Debug\\cmTC_a1a33.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1a33.dir\\Debug\\\\" /Fd"cmTC_a1a33.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1a33.dir\\Debug\\\\" /Fd"cmTC_a1a33.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\Debug\\cmTC_a1a33.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-tqurv9/Debug/cmTC_a1a33.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-tqurv9/Debug/cmTC_a1a33.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a1a33.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a1a33.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\Debug\\cmTC_a1a33.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a1a33.dir\\Debug\\cmTC_a1a33.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a1a33.dir\\Debug\\cmTC_a1a33.tlog\\cmTC_a1a33.lastbuildstate".
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-tqurv9\\cmTC_a1a33.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib/CMakeLists.txt:27 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-qskidu"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-qskidu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-qskidu
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_f6142.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:06.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\cmTC_f6142.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f6142.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\Debug\\".
+          Creating directory "cmTC_f6142.dir\\Debug\\cmTC_f6142.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f6142.dir\\Debug\\cmTC_f6142.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6142.dir\\Debug\\\\" /Fd"cmTC_f6142.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6142.dir\\Debug\\\\" /Fd"cmTC_f6142.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\Debug\\cmTC_f6142.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-qskidu/Debug/cmTC_f6142.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-qskidu/Debug/cmTC_f6142.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f6142.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f6142.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\Debug\\cmTC_f6142.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f6142.dir\\Debug\\cmTC_f6142.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f6142.dir\\Debug\\cmTC_f6142.tlog\\cmTC_f6142.lastbuildstate".
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-qskidu\\cmTC_f6142.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib/CMakeLists.txt:28 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-h76rkz"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-h76rkz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-h76rkz
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_35e79.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:08.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\cmTC_35e79.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_35e79.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\Debug\\".
+          Creating directory "cmTC_35e79.dir\\Debug\\cmTC_35e79.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35e79.dir\\Debug\\cmTC_35e79.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35e79.dir\\Debug\\\\" /Fd"cmTC_35e79.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35e79.dir\\Debug\\\\" /Fd"cmTC_35e79.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\Debug\\cmTC_35e79.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-h76rkz/Debug/cmTC_35e79.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-h76rkz/Debug/cmTC_35e79.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_35e79.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_35e79.vcxproj -> C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\Debug\\cmTC_35e79.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_35e79.dir\\Debug\\cmTC_35e79.tlog\\unsuccessfulbuild".
+          Touching "cmTC_35e79.dir\\Debug\\cmTC_35e79.tlog\\cmTC_35e79.lastbuildstate".
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-h76rkz\\cmTC_35e79.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.30
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "zlib/CMakeLists.txt:46 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ppo29q"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ppo29q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ppo29q
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_5d3b2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:10.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5d3b2.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\Debug\\".
+          Creating directory "cmTC_5d3b2.dir\\Debug\\cmTC_5d3b2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5d3b2.dir\\Debug\\cmTC_5d3b2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d3b2.dir\\Debug\\\\" /Fd"cmTC_5d3b2.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d3b2.dir\\Debug\\\\" /Fd"cmTC_5d3b2.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c"
+          
+          OFF64_T.c
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(30): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(31): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(32): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(33): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(30): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(31): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(32): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\OFF64_T.c(33): error C2065: 'off64_t': undeclared identifier [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ppo29q\\cmTC_5d3b2.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "zlib/CMakeLists.txt:55 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ay72i1"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ay72i1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ay72i1
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_616db.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:11.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_616db.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\Debug\\".
+          Creating directory "cmTC_616db.dir\\Debug\\cmTC_616db.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_616db.dir\\Debug\\cmTC_616db.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_616db.dir\\Debug\\\\" /Fd"cmTC_616db.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_616db.dir\\Debug\\\\" /Fd"cmTC_616db.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\Debug\\cmTC_616db.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ay72i1/Debug/cmTC_616db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-ay72i1/Debug/cmTC_616db.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_616db.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj]
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\Debug\\cmTC_616db.exe : fatal error LNK1120: 1 unresolved externals [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj]
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\Debug\\cmTC_616db.exe : fatal error LNK1120: 1 unresolved externals [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-ay72i1\\cmTC_616db.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.11
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib/CMakeLists.txt:63 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-d8429l"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-d8429l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-d8429l
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_2010d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:13.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\cmTC_2010d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2010d.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\Debug\\".
+          Creating directory "cmTC_2010d.dir\\Debug\\cmTC_2010d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2010d.dir\\Debug\\cmTC_2010d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2010d.dir\\Debug\\\\" /Fd"cmTC_2010d.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2010d.dir\\Debug\\\\" /Fd"cmTC_2010d.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\CheckIncludeFile.c"
+          
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\cmTC_2010d.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\cmTC_2010d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\cmTC_2010d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-d8429l\\cmTC_2010d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.98
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "openexr/IlmBase/config/IlmBaseSetup.cmake:136 (find_package)"
+      - "openexr/IlmBase/CMakeLists.txt:35 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-zcahvl"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-zcahvl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-zcahvl
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_f1ac0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:14.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\cmTC_f1ac0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f1ac0.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\Debug\\".
+          Creating directory "cmTC_f1ac0.dir\\Debug\\cmTC_f1ac0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f1ac0.dir\\Debug\\cmTC_f1ac0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1ac0.dir\\Debug\\\\" /Fd"cmTC_f1ac0.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1ac0.dir\\Debug\\\\" /Fd"cmTC_f1ac0.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\src.c"
+          src.c
+          
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\cmTC_f1ac0.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\cmTC_f1ac0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\cmTC_f1ac0.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-zcahvl\\cmTC_f1ac0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "openexr/IlmBase/config/IlmBaseSetup.cmake:136 (find_package)"
+      - "openexr/IlmBase/CMakeLists.txt:35 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-vq1ny4"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-vq1ny4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-vq1ny4
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_6b83c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:16.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\cmTC_6b83c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6b83c.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\Debug\\".
+          Creating directory "cmTC_6b83c.dir\\Debug\\cmTC_6b83c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6b83c.dir\\Debug\\cmTC_6b83c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b83c.dir\\Debug\\\\" /Fd"cmTC_6b83c.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b83c.dir\\Debug\\\\" /Fd"cmTC_6b83c.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\Debug\\cmTC_6b83c.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-vq1ny4/Debug/cmTC_6b83c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-vq1ny4/Debug/cmTC_6b83c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6b83c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\cmTC_6b83c.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\cmTC_6b83c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\cmTC_6b83c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-vq1ny4\\cmTC_6b83c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.13
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "openexr/IlmBase/config/IlmBaseSetup.cmake:136 (find_package)"
+      - "openexr/IlmBase/CMakeLists.txt:35 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-17oi8j"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-17oi8j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-17oi8j
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_1693b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:17.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\cmTC_1693b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1693b.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\Debug\\".
+          Creating directory "cmTC_1693b.dir\\Debug\\cmTC_1693b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1693b.dir\\Debug\\cmTC_1693b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1693b.dir\\Debug\\\\" /Fd"cmTC_1693b.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1693b.dir\\Debug\\\\" /Fd"cmTC_1693b.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\Debug\\cmTC_1693b.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-17oi8j/Debug/cmTC_1693b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-17oi8j/Debug/cmTC_1693b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1693b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\cmTC_1693b.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\cmTC_1693b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\cmTC_1693b.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-17oi8j\\cmTC_1693b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "openexr/IlmBase/config/CMakeLists.txt:10 (check_include_files)"
+    checks:
+      - "Looking for include file ucontext.h"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-wpnul5"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-wpnul5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "ILMBASE_HAVE_UCONTEXT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-wpnul5
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_81ccd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:19.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\cmTC_81ccd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_81ccd.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\Debug\\".
+          Creating directory "cmTC_81ccd.dir\\Debug\\cmTC_81ccd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_81ccd.dir\\Debug\\cmTC_81ccd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81ccd.dir\\Debug\\\\" /Fd"cmTC_81ccd.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\ILMBASE_HAVE_UCONTEXT_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81ccd.dir\\Debug\\\\" /Fd"cmTC_81ccd.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\ILMBASE_HAVE_UCONTEXT_H.c"
+          ILMBASE_HAVE_UCONTEXT_H.c
+          
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\ILMBASE_HAVE_UCONTEXT_H.c(2): fatal error C1083: Cannot open include file: 'ucontext.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\cmTC_81ccd.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\cmTC_81ccd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\cmTC_81ccd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\ILMBASE_HAVE_UCONTEXT_H.c(2): fatal error C1083: Cannot open include file: 'ucontext.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-wpnul5\\cmTC_81ccd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openexr/OpenEXR/config/CMakeLists.txt:15 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test OPENEXR_IMF_HAVE_SYSCONF_NPROCESSORS_ONLN"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-nlb3mv"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-nlb3mv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "OPENEXR_IMF_HAVE_SYSCONF_NPROCESSORS_ONLN"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-nlb3mv
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_b7043.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:21.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\cmTC_b7043.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b7043.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\Debug\\".
+          Creating directory "cmTC_b7043.dir\\Debug\\cmTC_b7043.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b7043.dir\\Debug\\cmTC_b7043.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D OPENEXR_IMF_HAVE_SYSCONF_NPROCESSORS_ONLN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7043.dir\\Debug\\\\" /Fd"cmTC_b7043.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D OPENEXR_IMF_HAVE_SYSCONF_NPROCESSORS_ONLN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7043.dir\\Debug\\\\" /Fd"cmTC_b7043.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\src.cxx"
+          src.cxx
+          
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\src.cxx(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\cmTC_b7043.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\cmTC_b7043.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\cmTC_b7043.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\src.cxx(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-nlb3mv\\cmTC_b7043.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.88
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openexr/OpenEXR/config/CMakeLists.txt:25 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test OPENEXR_IMF_HAVE_GCC_INLINE_ASM_AVX"
+    directories:
+      source: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-jpv7db"
+      binary: "C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-jpv7db"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "OPENEXR_IMF_HAVE_GCC_INLINE_ASM_AVX"
+      cached: true
+      stdout: |
+        Change Dir: C:/Repos/pbrt-v4/src/ext/CMakeFiles/CMakeScratch/TryCompile-jpv7db
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_395ba.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 20/06/2023 14:55:22.
+        Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\cmTC_395ba.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_395ba.dir\\Debug\\".
+          Creating directory "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\Debug\\".
+          Creating directory "cmTC_395ba.dir\\Debug\\cmTC_395ba.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_395ba.dir\\Debug\\cmTC_395ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D OPENEXR_IMF_HAVE_GCC_INLINE_ASM_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_395ba.dir\\Debug\\\\" /Fd"cmTC_395ba.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27049 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D OPENEXR_IMF_HAVE_GCC_INLINE_ASM_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_395ba.dir\\Debug\\\\" /Fd"cmTC_395ba.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\src.cxx"
+          src.cxx
+          
+        C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\src.cxx(13): fatal error C1189: #error:  No SSE support enabled to query AVX support [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\cmTC_395ba.vcxproj]
+        Done Building Project "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\cmTC_395ba.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\cmTC_395ba.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\src.cxx(13): fatal error C1189: #error:  No SSE support enabled to query AVX support [C:\\Repos\\pbrt-v4\\src\\ext\\CMakeFiles\\CMakeScratch\\TryCompile-jpv7db\\cmTC_395ba.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.87
+        
+      exitCode: 1
+...
